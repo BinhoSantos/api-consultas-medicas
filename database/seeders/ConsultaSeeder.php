@@ -13,6 +13,6 @@ class ConsultaSeeder extends Seeder
      */
     public function run(): void
     {
-        Consulta::factory()->count(20)->create();
+        Consulta::factory()->count(200)->create();
     }
 }
